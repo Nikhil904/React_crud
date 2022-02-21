@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div classNameName="container">
+        <div className="container-fluid">
           <button
             className="navbar-toggler"
             type="button"
@@ -34,6 +35,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          </div>
+          <button className="btn btn-outline-light nav">Add User</button>
         </div>
     </nav>
   );
