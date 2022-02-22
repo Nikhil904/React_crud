@@ -1,10 +1,13 @@
 import React from "react";
-import {Link,NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
+import "../Pages/index.css";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div classNameName="container">
         <div className="container-fluid">
+        <NavLink className="nav-link logo" exact to="/">
+                  React User
+                </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -35,8 +38,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          </div>
-          <button className="btn btn-outline-light nav">Add User</button>
+          <Link className="btn btn-outline-light nav" to="/users/add">Add User</Link>
         </div>
     </nav>
   );

@@ -1,0 +1,16 @@
+.moj{
+    margin-right: 20px;
+}
+.logo{
+    background-color: aliceblue;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+.btn{
+    justify-content: center;
+    display: block;
+    align-items: center;
+
+}

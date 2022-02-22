@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import {Link} from 'react-router-dom';
+import "../Pages/index.css";
 const Home = () => {
   const [user, setuser] = useState([]);
 
@@ -38,8 +39,8 @@ const Home = () => {
                   <td>{item.email}</td>
                   <td>{item.phone}</td>
                   <td>
-                   <Link to="#" className="btn btn-primary">View</Link>
-                   <Link to="#" className="btn btn-primary mr-2">Edit</Link>
+                   <Link to="#" className="btn btn-primary moj">View</Link>
+                   <Link to="#" className="btn btn-primary moj">Edit</Link>
                    <Link to="#" className="btn btn-danger">Delete</Link>
                   </td>
                 </tr>
